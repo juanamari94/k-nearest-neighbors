@@ -11,4 +11,4 @@ El propósito de este notebook es una presentación sencilla pero un con un par 
 
 - Jupyter Notebook / Jupyter Lab
 - numpy y scikit-learn.
-- Forma sencilla de instalar (con docker): docker run jupyter/scipy-notebook:latest
+- Forma sencilla de instalar (con docker): `docker run -p 8888:8888 juanamari/knnenv:latest` -- hay que cambiar la IP de la URL que da Jupyter Lab por consola por localhost:8888
